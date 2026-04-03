@@ -1,3 +1,13 @@
 <Solution>
-  <Project Path="AcademicManagementSystem.Api/AcademicManagementSystem.Api.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/Api/">
+    <Project Path="AcademicManagementSystem.Api/AcademicManagementSystem.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="AcademicManagementSystem.Application/AcademicManagementSystem.Application.csproj" />
+    <Project Path="AcademicManagementSystem.Domain/AcademicManagementSystem.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/External/">
+    <Project Path="AcademicManagementSystem.Persistence/AcademicManagementSystem.Persistence.csproj" />
+  </Folder>
 </Solution>
